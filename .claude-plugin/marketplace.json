@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "context-workflow",
+  "description": "Plan-first context/ folder workflow for Claude Code",
+  "owner": {
+    "name": "Vedansha Srivastava"
+  },
+  "plugins": [
+    {
+      "name": "context-workflow",
+      "description": "Plan-first workflow: a git-ignored context/ folder with plans you approve before any work starts, a log of Claude's own decisions, a daily log, and rules re-read after every compaction.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

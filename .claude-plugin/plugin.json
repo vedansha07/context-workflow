@@ -1,0 +1,8 @@
+{
+  "name": "context-workflow",
+  "description": "Plan-first workflow for Claude Code: a git-ignored context/ folder with plans you approve before any work starts, a log of the decisions Claude makes on its own, a daily log, and rules that are re-read after every compaction.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vedansha Srivastava"
+  }
+}

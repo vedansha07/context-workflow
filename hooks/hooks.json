@@ -1,0 +1,16 @@
+{
+  "description": "On every session start, resume, /clear and compaction, adds the project's context/howwework.md to Claude's context so the workflow rules survive resets. Prints nothing in projects without that file.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
